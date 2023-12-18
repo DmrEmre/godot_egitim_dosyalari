@@ -1,0 +1,11 @@
+res://main.tscn
+res://door.gd
+res://world.tscn
+res://Player/player.tscn
+res://bg.tscn
+res://Frog.tscn
+res://Collectables/Cherry.tscn
+res://world2.tscn
+res://door.tscn
+res://pause_dialog.tscn
+res://world.gd
