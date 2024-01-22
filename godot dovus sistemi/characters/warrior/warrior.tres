@@ -1,0 +1,13 @@
+[gd_resource type="Resource" script_class="CharacterStats" load_steps=4 format=3 uid="uid://2jc2ju4n6hwd"]
+
+[ext_resource type="Texture2D" uid="uid://cpydvk8mq66o5" path="res://art/tile_0087.png" id="1_gtpd6"]
+[ext_resource type="Script" path="res://custom_resources/character_stats.gd" id="1_wbrho"]
+[ext_resource type="Resource" uid="uid://v3h0tf2202yl" path="res://characters/warrior/worrior_starting_deck.tres" id="3_m52fw"]
+
+[resource]
+script = ExtResource("1_wbrho")
+starting_deck = ExtResource("3_m52fw")
+cards_per_turn = 4
+max_mana = 3
+max_health = 35
+art = ExtResource("1_gtpd6")

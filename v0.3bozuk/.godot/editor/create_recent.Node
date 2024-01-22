@@ -1,0 +1,14 @@
+TextureRect
+ItemList
+HBoxContainer
+MarginContainer
+ConfirmationDialog
+Label
+VBoxContainer
+CanvasLayer
+Node2D
+Button
+AnimatedSprite2D
+AnimationPlayer
+Area2D
+Sprite2D

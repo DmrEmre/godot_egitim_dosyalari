@@ -1,0 +1,49 @@
+[gd_scene load_steps=4 format=3 uid="uid://c71xes0ve5oee"]
+
+[ext_resource type="Script" path="res://save_game.gd" id="1_4y7vi"]
+[ext_resource type="Texture2D" uid="uid://b11tia6tqshf2" path="res://icon.svg" id="1_mm0ev"]
+[ext_resource type="Theme" uid="uid://butgob8kmyer8" path="res://assets/themes/dialog_theme.tres" id="1_s2vsi"]
+
+[node name="SaveGame" type="ConfirmationDialog"]
+process_mode = 2
+title = "SAVE GAME"
+position = Vector2i(0, 36)
+size = Vector2i(549, 476)
+visible = true
+theme = ExtResource("1_s2vsi")
+script = ExtResource("1_4y7vi")
+
+[node name="MarginContainer" type="MarginContainer" parent="."]
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+offset_left = 8.0
+offset_top = 8.0
+offset_right = 541.0
+offset_bottom = 434.0
+grow_horizontal = 2
+grow_vertical = 2
+size_flags_horizontal = 3
+size_flags_vertical = 3
+theme_override_constants/margin_left = 10
+theme_override_constants/margin_top = 10
+theme_override_constants/margin_right = 10
+theme_override_constants/margin_bottom = 40
+
+[node name="VBoxContainer" type="VBoxContainer" parent="MarginContainer"]
+layout_mode = 2
+
+[node name="Label" type="Label" parent="MarginContainer/VBoxContainer"]
+layout_mode = 2
+text = "Save Game?"
+horizontal_alignment = 1
+
+[node name="TextureRect" type="TextureRect" parent="MarginContainer/VBoxContainer"]
+custom_minimum_size = Vector2(513, 342)
+layout_mode = 2
+size_flags_vertical = 3
+texture = ExtResource("1_mm0ev")
+expand_mode = 3
+stretch_mode = 6
+
+[connection signal="confirmed" from="." to="." method="_on_SaveGame_confirmed"]

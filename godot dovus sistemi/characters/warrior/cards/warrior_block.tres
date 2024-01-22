@@ -1,0 +1,13 @@
+[gd_resource type="Resource" load_steps=3 format=3 uid="uid://bm3jiwsv6lgdr"]
+
+[ext_resource type="Texture2D" uid="uid://oe7v35ii8vrs" path="res://art/tile_0102.png" id="1_16u1o"]
+[ext_resource type="Script" path="res://characters/warrior/cards/warrior_block.gd" id="2_kcvj0"]
+
+[resource]
+script = ExtResource("2_kcvj0")
+id = "warrior_block"
+type = 1
+target = 0
+cost = 1
+icon = ExtResource("1_16u1o")
+tooltip_text = ""

@@ -1,0 +1,14 @@
+res://main.tscn
+res://door.gd
+res://assets/themes/dialog_theme.tres
+res://world.tscn
+res://Player/player.tscn
+res://bg.tscn
+res://Frog.tscn
+res://Collectables/Cherry.tscn
+res://world2.tscn
+res://door.tscn
+res://pause_dialog.tscn
+res://save_game.tscn
+res://load_game.tscn
+res://addons/transition_mgr/transition_mgr.tscn
